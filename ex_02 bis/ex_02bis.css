@@ -1,0 +1,28 @@
+/* Style pour le body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style pour la div de la carte */
+#map {
+    height: 100vh; /* La carte prendra toute la hauteur de la fenêtre */
+    width: 100%; /* La carte prendra toute la largeur de la fenêtre */
+}
+
+/* Style optionnel pour personnaliser l'apparence */
+.leaflet-popup-content {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.leaflet-popup-content-wrapper {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.leaflet-popup-tip {
+    background: #f9f9f9;
+}
